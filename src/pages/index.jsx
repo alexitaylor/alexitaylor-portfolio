@@ -148,7 +148,7 @@ const Index = () => (
             position="Software Engineer"
             date="December 2018 - Present"
             link="https://github.com/alexitaylor/Photo-Hungry"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #f4791f, #659999)"
           >
             Delicious food photos analyzed and turned into restaurant and recipe recommendations.
           </ProjectCard>
