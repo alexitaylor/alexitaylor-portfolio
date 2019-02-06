@@ -13,27 +13,35 @@ const Wrapper = styled.a`
   }
 `
 
-const Text = styled.div`
+const Date = styled.div`
   ${tw`opacity-75 font-sans text-sm md:text-base`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `
 
 const Title = styled.div`
   ${tw`text-white uppercase text-2xl md:text-3xl xl:text-4xl tracking-wide font-sans pt-8`};
+  font-weight: bold;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
 
 const SubTitle = styled.div`
   ${tw`text-white uppercase text-1xl md:text-2xl xl:text-3xl tracking-wide font-sans pt-1`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-`;
+`
+
+const Text = styled.div`
+  ${tw`text-white text-xl md:text-1xl xl:text-2xl tracking-wide font-sans pt-1`};
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+`
 
 const ProjectCard = ({ title, link, position, date, children, bg }) => (
   <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg={bg}>
     <Title>{title}</Title>
     <SubTitle>{position}</SubTitle>
-    <Text>{date}</Text>
+    <Date>{date}</Date>
     <Text>{children}</Text>
   </Wrapper>
 )

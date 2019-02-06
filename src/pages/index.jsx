@@ -106,13 +106,23 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
+            title="NGX Lazy Loading Images"
+            position="Software Engineer"
+            date="February 2018 - Present"
+            link="https://github.com/alexitaylor/ngx-lazy-loading-images"
+            bg="linear-gradient(to right, #4A00E0, #8E2DE2)"
+          >
+            NGX Lazy Loading Images is an Angular open source library that implements smart lazy loading logic with IntersectionObserver API.
+            It helps by speeding up initial page loads by loading only images above the fold. It decreases load time, speed index and above the fold time.
+          </ProjectCard>
+          <ProjectCard
             title="NG-Surveys"
             position="Software Engineer"
             date="December 2018 - Present"
             link="https://github.com/alexitaylor/ng-surveys"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            NG-Surveys is open source library to help developers build and serve custom surveys in their Angular 7 App.
+            NG-Surveys is an Angular open source library that helps developers build and serve custom surveys in their Angular 7 App.
             I Created an open source library to improve Vital Score’s patient-intake survey generator allowing non-technical users to create and serve surveys to patients
           </ProjectCard>
           <ProjectCard
