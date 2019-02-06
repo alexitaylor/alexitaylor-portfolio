@@ -174,8 +174,8 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          <strong>Front End:</strong> Angular, AngularJS, React, Vue, JavaScript ES5 & ES6, HTML5, CSS3, Flux, Redux, Material Design, and Bootstrap <br/>
-          <strong>Back End:</strong> Node, Express, Java, and GraphQL <br/>
+          <strong>Front End:</strong> Angular, AngularJS, React, Vue, JavaScript ES5 & ES6, TypeScript, HTML5, CSS3, GraphQL, Flux, Redux, Material Design, and Bootstrap <br/>
+          <strong>Back End:</strong> Node, Express, Java, NestJS, GraphQL, Sequelize, TypeORM, Apollo, Prisma and C#<br/>
           <strong>Databases:</strong> MongoDB, Mongoose, PostgreSQL, and mySQL <br/>
         </AboutDesc>
       </About>

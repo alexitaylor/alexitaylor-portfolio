@@ -55,11 +55,7 @@
     "prettier": "^1.15.3"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/alexitaylor/alexitaylor-portfolio",
     "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
-  },
-  "homepage": "https://cara.lekoarts.de"
+  }
 }
